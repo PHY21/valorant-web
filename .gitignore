@@ -1,0 +1,31 @@
+# Private data, historical database dumps, and local working files
+/过程备份/
+/.codex-finalizer/
+/.ppt-build/
+/docs/superpowers/
+
+# Course submission artifacts and presentation exports
+/输出/
+/README_提交版.md
+/使用说明.txt
+*.zip
+*.pptx
+*.pdf
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+config.local.php
+*.pem
+*.key
+*.log
+
+# Editor, OS, and dependency artifacts
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+node_modules/
+vendor/
